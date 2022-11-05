@@ -1,0 +1,9 @@
+print('This is a weight converter that will convert pounds to kg, and kg to pounds.')
+weight = input('What is youre weight? ')
+unit = input('Pounds(lbs) or kg? ')
+if unit == "lbs":
+    converted = int(weight) * 0.45
+    print(f'you are {converted} kg ')
+if unit == "kg":
+    converted1 = int(weight) / 0.45
+    print(f'you are {converted1} pounds')
