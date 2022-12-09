@@ -1,4 +1,6 @@
-print('This is a weight converter that will convert pounds to kg, and kg to pounds.')
+""" this program converts pounds to kilograms and vice versa """
+
+
 weight = input('What is youre weight? ')
 unit = input('Pounds(lbs) or kg? ')
 if unit == "lbs":
